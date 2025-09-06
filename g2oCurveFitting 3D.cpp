@@ -166,7 +166,7 @@ public:
 namespace teb_local_planner
 {
 // 4.1 软约束边（继承TEB一元边基类）
-class EdgeSoftConstraint : public BaseTebUnaryEdge<3, Eigen::Vector2d, VertexPoint2D>
+class EdgeSoftConstraint : public BaseTebUnaryEdge<3, Eigen::Vector3d, VertexPoint2D>
 {
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW
